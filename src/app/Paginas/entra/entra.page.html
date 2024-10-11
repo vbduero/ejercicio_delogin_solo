@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button defaultHref="/" slot="start"></ion-back-button>
+    <ion-title>Bienvenido jorge</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <ion-button id="open-toast" expand="block">Holaaa</ion-button>
+  <p id="message">Sacado de la pagina oficicial de ionic, OKAY</p>
+  <ion-toast trigger="open-toast" message="This toast will disappear after 5 seconds" [duration]="5000"></ion-toast>
+</ion-content>
